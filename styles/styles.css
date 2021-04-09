@@ -1,0 +1,37 @@
+body {
+    background-color: peru;
+}
+
+ul {
+    text-align: left;
+    font-size: smaller;
+    border: 2px solid white;
+    margin: 10%;
+    background-color: wheat;
+    color: black;
+}
+
+.pageHeader {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    border: black 5px solid;
+    margin: 20px 150px;
+    background-color: wheat;
+}
+
+.list {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop {
+    border: 2px solid black;
+    flex-basis: 31%;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
